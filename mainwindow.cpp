@@ -17,6 +17,7 @@ MainWindow::MainWindow(QWidget *parent) :
     }
     connect(ui->pgm_labPlayer, SIGNAL(doubleClicked()), this, SLOT(pvw_pgmswitch()));
     connect(ui->pvw_labPlayer, SIGNAL(doubleClicked()), this, SLOT(pvw_pgmswitch()));
+    qDebug("111");
 }
 
 MainWindow::~MainWindow()
